@@ -9,7 +9,7 @@ public class LoginController {
 
     @RequestMapping(method = RequestMethod.GET)
     public String tst() {
-        System.out.println("In str");
+        System.out.println("In str from feature branch1");
         return "Hello String";
     }
 }
